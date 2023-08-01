@@ -2,15 +2,15 @@
 clickhouse:
   hosts:
     clickhouse-01:
-      ansible_host: 158.160.102.126
+      ansible_host: 51.250.0.135
       ansible_ssh_user: sam
 lighthouse:
   hosts:
     clickhouse-02:
-      ansible_host: 158.160.39.170
+      ansible_host: 158.160.112.234
       ansible_ssh_user: sam
 vector:
   hosts:
     clickhouse-03:
-      ansible_host: 158.160.63.238
+      ansible_host: 158.160.115.76
       ansible_ssh_user: sam
